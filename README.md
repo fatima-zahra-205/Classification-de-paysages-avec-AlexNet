@@ -12,6 +12,9 @@ Ce projet réalise la classification d'images de paysages en 6 classes à l'aide
 | 5 | 🛣️ Street |
 
 
+<img width="1536" height="1024" alt="processus" src="https://github.com/user-attachments/assets/4ccca4b9-6f00-405e-9762-dcf36e4a9c30" />
+
+
 **🏗️ Architecture AlexNet**
 
 Input (224x224x3)->
@@ -43,9 +46,13 @@ FC3 (6 classes)
 
 **Matrice de confusion**
 
+<img width="598" height="284" alt="image" src="https://github.com/user-attachments/assets/d112b445-922d-47b6-8076-e3afebb6b9b9" />
+
 **Courbes d'apprentissage**
 
+<img width="555" height="287" alt="image" src="https://github.com/user-attachments/assets/6cff1e7e-0987-466a-bfe1-ed7e5227b413" />
 
+Contexte du modèle : AlexNet · 6 classes (buildings, forest, glacier, mountain, sea, street) · 14 034 images train · 3 000 test · Adam · 5 epochs · EarlyStopping(patience=3)
 **🛠️ Technologies utilisées**
 
 - Python 3.13
